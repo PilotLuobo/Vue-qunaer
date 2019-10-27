@@ -1,6 +1,6 @@
 <template>
   <div class="icons">
-    <swiper>
+    <swiper :options="swiperOption">
       <swiper-slide v-for="(page,index) of pages" :key="index">
         <div class="icon" v-for="item of page" :key="item.id">
           <div class="icon-img">
@@ -16,59 +16,18 @@
 <script>
 export default {
   name: 'HomeIcons',
-  data () {
+  props: {
+    iconList: Array
+  },
+  data(){
     return {
-      iconList: [
-        {
-          id: '01',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-          describe: '热门景点1'
-        },
-        {
-          id: '02',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-          describe: '热门景点2'
-        },
-        {
-          id: '03',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-          describe: '热门景点3'
-        },
-        {
-          id: '04',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-          describe: '热门景点4'
-        },
-        {
-          id: '05',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-          describe: '热门景点5'
-        },
-        {
-          id: '06',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-          describe: '热门景点6'
-        },
-        {
-          id: '07',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-          describe: '热门景点7'
-        },
-        {
-          id: '08',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-          describe: '热门景点8'
-        },
-        {
-          id: '09',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png',
-          describe: '热门景点9'
-        }
-      ]
+      swiperOption:{
+        autoplay:false
+      }
     }
   },
   computed: {
-    pages () {
+    pages() {
       const pages = []
       this.iconList.forEach((item, index) => {
         const page = Math.floor(index / 8)
