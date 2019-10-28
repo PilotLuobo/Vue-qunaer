@@ -25,7 +25,7 @@ export default {
     HomeRecommend,
     HomeWeekend
   },
-  data() {
+  data () {
     return {
       city: '',
       swiperList: [],
@@ -39,7 +39,7 @@ export default {
       axios.get('/static/mock/index.json')
         .then(this.getHomeInfoSucc)
     },
-    getHomeInfoSucc(res) {
+    getHomeInfoSucc (res) {
       console.log(res)
       res = res.data
       if (res.ret && res.data) {
@@ -51,7 +51,7 @@ export default {
       }
     }
   },
-  mounted() {
+  mounted () {
     this.getHomeInfo()
   }
 

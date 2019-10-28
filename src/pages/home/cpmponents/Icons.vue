@@ -19,15 +19,15 @@ export default {
   props: {
     iconList: Array
   },
-  data(){
+  data () {
     return {
-      swiperOption:{
-        autoplay:false
+      swiperOption: {
+        autoplay: false
       }
     }
   },
   computed: {
-    pages() {
+    pages () {
       const pages = []
       this.iconList.forEach((item, index) => {
         const page = Math.floor(index / 8)
