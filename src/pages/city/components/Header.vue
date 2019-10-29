@@ -2,7 +2,7 @@
   <div class="header">
     城市选择
     <router-link to="/">
-    <div class="iconfont back-icon">&#xe658;</div>
+      <div class="iconfont back-icon">&#xe658;</div>
     </router-link>
   </div>
 </template>
@@ -23,13 +23,13 @@ export default {
   color: #fff
   background: $bgColor
   font-size: 0.32rem
-  position relative
+  position: relative
   .back-icon
-    width 0.64rem
-    text-align center
-    font-size 0.4rem
-    position absolute
-    top 0
-    left 0
-    color #fff
+    width: 0.64rem
+    text-align: center
+    font-size: 0.4rem
+    position: absolute
+    top: 0
+    left: 0
+    color: #fff
 </style>
