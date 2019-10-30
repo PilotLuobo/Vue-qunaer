@@ -120,7 +120,7 @@ export default {
     border-color: #ccc
 .border-bottom
   &:before
-    border-color: #cc
+    border-color: #ccc
 .list
   overflow: hidden
   position: absolute
