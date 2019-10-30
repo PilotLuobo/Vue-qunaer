@@ -1,3 +1,4 @@
+// 此处为城市列表组件
 <template>
   <div class="list">
     <div class="area">
