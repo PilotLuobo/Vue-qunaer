@@ -44,6 +44,7 @@ export default {
     },
     // 触摸事件开始
     handleTouchStart: function () {
+      // touchStatus 布尔值为 true
       this.touchStatus = true
     },
     // 触摸事件移动
@@ -60,11 +61,11 @@ export default {
           const touchY = e.touches[0].clientY - 79
           // 获取当前触摸的字母
           const index = Math.floor((touchY - this.startY) / 22)
-          // 防止判断范围超出26个字母
+          // 防止判断 index 范围超出26个字母
           if (index >= 0 && index < this.letters.length) {
             this.$emit('change', this.letters[index])
           }
-        }, 8)
+        }, 4)
       }
     },
     // 触摸事件结束
