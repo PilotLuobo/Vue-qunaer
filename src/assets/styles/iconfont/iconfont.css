@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1573967951428'); /* IE9 */
+  src: url('iconfont.eot?t=1573967951428#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOUAAsAAAAAB+gAAANFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDKgqDAIJfATYCJAMUCwwABCAFhG0HVhvxBhEVnJXIfiZkc0bzuAe+arzSpWuFThNrgnia+5y3kNu/KTCCY3BM6ohUyrK1SYAAupLO39wM+zUqwjAl53k/fUc6FpDm1//cz9dFiuW1Z3OppqikatoZjccDGlB0kW0gX9T/MHZBS9wOATyVaID06DVgBA6D2U8AWTB39lRcRoFpiBUcQlAx1SBHsDi1V30Bh4Pfy2/NxIHCasyhQ2b1nEGXqMOPvXpLvMUEDwVvOh3AZoEGGgAGZF6lYQY6CjRA49XNDG0Ah0NB1CEa+2NvHEPcGP5ROI3/8jyg0BgEJMCMLgBAFxg0EHVwECiIxiDQEI1FYODHXv5zbGUB8EACmA+cBZtqAH6nQhBTpLokChQLgtFFbREpuv96WXPmmi+y70Y5e/7mxKufw/BqWv3BQcfTp7ee8n5fcp0Blz6Ao0ecOHu59Hi/5fr+m1tv7Ls2Pi1tdErKyOTkEampS0c9TxMiHpVi55vuT+s8cvGs2R1HjJw+K1ppdMfN9bhBfYqtVjdkTTGKrZGgVUahSjvKlMzvVXb5ADpk5JbHxR4nRlbpVW55h0Yrqlao0rPc9hkjd/eevWvDkpalcxrlNHQSef5cLTh8eIGyWF6VWpA0f13/27d6NWa1UbsfPdrtihRSqt3I2mZWjQvVNgbMKWWSv/5IIFaqZM6Pn5YzhzXAm/RNDcT1bg2AWq9OA+jSqvSv+xse9Rxba3LhDv9caADI+H9wkBE3aOD98zrzfhSvY5nRBKbSGqXY4SomS9fb7KMAjwd+UASKkTuNqSQkOsFxHgRFEhVB46iBNvgGYAlpAQGOzuCpT+/ZIcVZhkZMAqjHTgBCEe6CohDPQVOEr2iDzwFLKf5CQBHRoPBGVXzJUK2C6E4oGQ2oPwS9V2urWYSxN3TvLCktCCgvpBbcMA9TPnzFijTFiPZxC7MFS3uBDeyGOe9w0B5R8+CZj3UcbdWHBr2XTuiOIIkhAyh/INB2lfVqM1H4/g1y3jKJGkqqzC+INKFxMBtMHdBXae1Uciu3NB/OgjELWGRXgA10Qlm2A0d1pwhpbOAH+A6r0apku0qH5eXlHdcBnrmWTYkWI1YCgt9HkPVyA86esd0aNyqbqX7pOgAAAA==') format('woff2'),
+  url('iconfont.woff?t=1573967951428') format('woff'),
+  url('iconfont.ttf?t=1573967951428') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1573967951428#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icontupian:before {
+  content: "\e889";
+}
+
+.iconicon-test:before {
+  content: "\e63c";
+}
+
+.iconicon-test1:before {
+  content: "\e658";
+}
+
+.iconicon-test2:before {
+  content: "\e659";
+}
+

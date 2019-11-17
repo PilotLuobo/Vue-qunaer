@@ -1,0 +1,37 @@
+{
+  "id": "1475100",
+  "name": "去哪儿",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "Vue仿去哪儿",
+  "glyphs": [
+    {
+      "icon_id": "2076242",
+      "name": " 图片",
+      "font_class": "tupian",
+      "unicode": "e889",
+      "unicode_decimal": 59529
+    },
+    {
+      "icon_id": "8776842",
+      "name": "search",
+      "font_class": "icon-test",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "8777510",
+      "name": "arrow_left",
+      "font_class": "icon-test1",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "8777511",
+      "name": "arrow_down",
+      "font_class": "icon-test2",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    }
+  ]
+}
