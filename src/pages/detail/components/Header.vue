@@ -66,6 +66,8 @@ export default {
     color #fff
     font-size 0.4rem
 .header-fixed
+  border-radius 1px
+  z-index 2
   position: fixed
   height: $headerHeight
   line-height: $headerHeight
